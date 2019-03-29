@@ -28,8 +28,8 @@ static int Set_impl(lua_State* L)
 // Functions exposed to Lua
 static const luaL_reg Module_methods[] =
 {
-    {"Get", Get_impl},
-    {"Set", Set_impl},
+    {"get", Get_impl},
+    {"set", Set_impl},
     {0, 0}
 };
 
